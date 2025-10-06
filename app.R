@@ -1,7 +1,7 @@
 
 library(shiny)
 library(shinydashboard)
-library(rio)
+# library(rio)
 library(tidyverse)
 library(archive)
 
@@ -387,3 +387,4 @@ server=function(input, output){
 
 # correr -----------------------------------------------------------------------
 shinyApp(dashboardPage(header,sidebar,body), server)
+
